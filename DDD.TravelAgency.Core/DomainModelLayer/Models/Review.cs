@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DDD.TravelAgency.Core.DomainModelLayer.Models
 {
-    public class Customer : Entity, IAggregateRoot
+    public  class Review : Entity, IAggregateRoot
     {
     }
 }
