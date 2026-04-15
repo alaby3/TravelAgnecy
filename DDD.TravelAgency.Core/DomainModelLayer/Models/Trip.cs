@@ -1,15 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
+//using DDD.SharedKernel.DomainModelLayer;
+//using DDD.SharedKernel.DomainModelLayer.Implementations;
 
 namespace DDD.TravelAgency.Core.DomainModelLayer.Models
 {
 
 
     //public enum 
-    public  class Trip
+    public  class Trip //: Entity, IAggregateRoot
     {
 
         public long Id { get; set; } 

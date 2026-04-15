@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="ApplicationLayer\" />
-    <Folder Include="DomainModelLayer\Implementations\" />
     <Folder Include="InfrastructureLayer\Implementations\" />
   </ItemGroup>
 
