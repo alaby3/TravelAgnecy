@@ -16,7 +16,6 @@
     <Folder Include="DomainModelLayer\Events\" />
     <Folder Include="DomainModelLayer\Factories\" />
     <Folder Include="DomainModelLayer\Interfaces\" />
-    <Folder Include="DomainModelLayer\Models\" />
     <Folder Include="DomainModelLayer\Services\" />
     <Folder Include="DomainModelLayer\Policies\" />
     <Folder Include="InfrastructureLayer\EF\" />
