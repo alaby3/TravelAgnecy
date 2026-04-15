@@ -10,5 +10,6 @@ namespace DDD.TravelAgency.Core.DomainModelLayer.Models
 {
     public  class Review : Entity, IAggregateRoot
     {
+
     }
 }
