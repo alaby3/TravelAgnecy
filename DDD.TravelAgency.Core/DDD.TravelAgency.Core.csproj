@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ApplicationLayer\" />
+    <Folder Include="ApplicationLayer\Commands\" />
     <Folder Include="DomainModelLayer\" />
   </ItemGroup>
 
