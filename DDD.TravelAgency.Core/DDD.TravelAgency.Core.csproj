@@ -21,4 +21,9 @@
     <Folder Include="InfrastructureLayer\EF\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.SharedKernel\DDD.SharedKernel.csproj" />
+    <ProjectReference Include="..\TravelAgnecy\DDD.TravelAgency.ConsoleTest.csproj" />
+  </ItemGroup>
+
 </Project>

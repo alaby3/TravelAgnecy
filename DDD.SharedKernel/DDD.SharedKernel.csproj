@@ -12,4 +12,8 @@
     <Folder Include="InfrastructureLayer\Implementations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TravelAgnecy\DDD.TravelAgency.ConsoleTest.csproj" />
+  </ItemGroup>
+
 </Project>
