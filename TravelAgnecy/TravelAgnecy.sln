@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelAgnecy", "TravelAgnecy.csproj", "{4B965460-C4C1-48E9-9AAF-B719A2503CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.TravelAgency.ConsoleTest", "DDD.TravelAgency.ConsoleTest.csproj", "{4B965460-C4C1-48E9-9AAF-B719A2503CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.TravelAgency.Core", "..\DDD.TravelAgency.Core\DDD.TravelAgency.Core.csproj", "{F7CB1930-4CDD-4981-8AFB-E30FAB2D132F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.TravelAgency.Core", "..\DDD.TravelAgency.Core\DDD.TravelAgency.Core.csproj", "{F7CB1930-4CDD-4981-8AFB-E30FAB2D132F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.SharedKernel", "..\DDD.SharedKernel\DDD.SharedKernel.csproj", "{FDC1F29E-82F7-4A21-878A-E83742DE9221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDD.SharedKernel", "..\DDD.SharedKernel\DDD.SharedKernel.csproj", "{FDC1F29E-82F7-4A21-878A-E83742DE9221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
