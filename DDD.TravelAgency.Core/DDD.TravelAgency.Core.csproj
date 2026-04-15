@@ -9,7 +9,17 @@
 
   <ItemGroup>
     <Folder Include="ApplicationLayer\Commands\" />
-    <Folder Include="DomainModelLayer\" />
+    <Folder Include="ApplicationLayer\DomainEventHandlers\" />
+    <Folder Include="ApplicationLayer\DTOs\" />
+    <Folder Include="ApplicationLayer\Mappers\" />
+    <Folder Include="ApplicationLayer\Queries\" />
+    <Folder Include="DomainModelLayer\Events\" />
+    <Folder Include="DomainModelLayer\Factories\" />
+    <Folder Include="DomainModelLayer\Interfaces\" />
+    <Folder Include="DomainModelLayer\Models\" />
+    <Folder Include="DomainModelLayer\Services\" />
+    <Folder Include="DomainModelLayer\Policies\" />
+    <Folder Include="InfrastructureLayer\EF\" />
   </ItemGroup>
 
 </Project>
