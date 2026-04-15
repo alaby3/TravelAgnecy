@@ -21,5 +21,11 @@ namespace DDD.TravelAgency.Core.DomainModelLayer.Models
         
         public DateTime Start { get; set; }
         public DateTime End { get; set; }
+
+
+
+
+
+
     }
 }

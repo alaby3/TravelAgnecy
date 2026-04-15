@@ -10,5 +10,8 @@ namespace DDD.TravelAgency.Core.DomainModelLayer.Models
 {
     public class Customer : Entity, IAggregateRoot
     {
+        
+
+
     }
 }
