@@ -10,5 +10,10 @@ namespace DDD.TravelAgency.Core.DomainModelLayer.Models
 {
     public class Customer : Entity, IAggregateRoot
     {
+        public string FirstName { get; protected set; }
+        public string LastName { get; protected set; }
+        public DateOnly BirthDate { get; protected set; }
+
+
     }
 }
