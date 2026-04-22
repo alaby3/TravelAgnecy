@@ -15,5 +15,11 @@ namespace DDD.TravelAgency.Core.DomainModelLayer.Models
         public DateOnly BirthDate { get; protected set; }
 
 
+        protected Customer() { } // na potrzeby serializacji
+
+        //public Customer 
+
+
+
     }
 }

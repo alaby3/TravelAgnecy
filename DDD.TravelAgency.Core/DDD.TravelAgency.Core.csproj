@@ -13,7 +13,6 @@
     <Folder Include="ApplicationLayer\DTOs\" />
     <Folder Include="ApplicationLayer\Mappers\" />
     <Folder Include="ApplicationLayer\Queries\" />
-    <Folder Include="DomainModelLayer\Events\" />
     <Folder Include="DomainModelLayer\Factories\" />
     <Folder Include="DomainModelLayer\Interfaces\" />
     <Folder Include="DomainModelLayer\Services\" />
