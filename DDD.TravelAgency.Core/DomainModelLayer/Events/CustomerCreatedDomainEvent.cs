@@ -1,30 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DDD.SharedKernel.DomainModelLayer.Implementations;
-using DDD.TravelAgency.Core.DomainModelLayer;
+﻿using DDD.SharedKernel.DomainModelLayer;
+using System;
 
 namespace DDD.TravelAgency.Core.DomainModelLayer.Events
 {
-    public class CustomerCreatedDomainEvent
+    public class CustomerCreatedDomainEvent : IDomainEvent
     {
+        public long Created { get; protected set; }
 
-        public long PlayerID { get; protected set; }
-        public string FirstName { get; protected set;}
-        public string Email { get; protected set;}
+        public long CustomerId { get; protected set; }
+        public string FirstName { get; protected set; }
+        public string LastName { get; protected set; }
+        public string Email { get; protected set; }
 
-
-        public string LastName { get; protected set;}   
-
-
-        public CustomerCreatedDomainEvent(long playerID, string firstName, string email, string lastName)
+        public CustomerCreatedDomainEvent(long customerId, string firstName, string lastName, string email)
         {
-            PlayerID = playerID;
+            Created = DateTime.UtcNow.Ticks;
+            CustomerId = customerId;
             FirstName = firstName;
-            Email = email;
             LastName = lastName;
+            Email = email;
         }
     }
 }
